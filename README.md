@@ -10,3 +10,4 @@
 + 参考[子昱](), [自强](https://github.com/lanlyhs/sync-block/blob/master/doc/todo.md)
 + 一些零散文章： [浏览器任务调度分析](https://juejin.im/post/6844904040841609223)，
 [浅析 Node 进程与线程](https://juejin.im/post/6844904033640169486), [JS实现 使用动态优先权的进程调度算法模拟](https://blog.csdn.net/qq_37288477/article/details/84844900), [高优先权优先调度算法JS实现](https://www.pianshen.com/article/1132349153/)
++ [轻量级 JS 任务调度工具 bobolink](https://my.oschina.net/u/2391658/blog/1865944)
