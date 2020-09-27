@@ -1,0 +1,44 @@
+{
+  "name": "@bfs/thread",
+  "version": "1.0.0",
+  "description": "a thread pool",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "cov:local": "nyc npm test",
+    "cov:nyc": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevekeol/bfs-fiber-thread.git"
+  },
+  "keywords": [
+    "queue",
+    "task",
+    "schedule",
+    "concurrency",
+    "job",
+    "async",
+    "pool",
+    "partaker",
+    "bobolink",
+    "js-queue"
+  ],
+  "author": {
+    "name": "stevekeol",
+    "email": "stevekeol.x@gmail.com",
+    "url": "https://github.com/stevekeol/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekeol/gateway/issues"
+  },
+  "homepage": "https://github.com/stevekeol/gateway#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.5",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {}
+}

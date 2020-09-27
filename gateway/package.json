@@ -1,5 +1,5 @@
 {
-  "name": "@BFS/Fiber",
+  "name": "@bfs/fiber",
   "version": "1.0.0",
   "description": "an intelligently scheduled task pool",
   "main": "index.js",

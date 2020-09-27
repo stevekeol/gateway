@@ -1,14 +1,14 @@
-const Scheduler = require('./scheduler/index');
+const Scheduler = require('./lib/fiber');
 
 // 立即执行模式
 // function testImmediatelyMode() {
 
   //创建一个任务调度器
   let bl = new Scheduler({
-    timeout: 2000,
-    retry: 3,
-    concurrency: 'some',
-    retryPrior: 'some',
+    timeout: 2000, //超时上限
+    retry: 0, //任务失败时的重试次数
+    concurrency: 3, //并行数
+    retryPrior: false, //是否优先处理重试任务
     catch: (err) => {
       console.log('catch err', err);
     }
