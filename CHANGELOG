@@ -1,4 +1,27 @@
+0.0.2   /  2020-09-26
 
+- 任务支持数据模式
+- 完善的单元测试
+- 升级按频率调度功能
+- 更好的使用说明
+- 完善的JSDOC编码提醒
+
+---------------------
+
+0.0.1  /  2020-09-25
+
+- 增加排队中任务数的限制参数
+- 简单添加几个集成测试用例
+
+
+----------------------
+
+超时处理 - ok
+任务组按序处理 - ok
+初始化任务调度器实例的时候，允许配置队列的属性 - ok
+支持任务重试 - ok
+
+------
 # gateway(fiber)
 > BFCHain-Fiber项目中，Fiber核心项目
 + 提供服务注册
@@ -7,7 +30,6 @@
 + 可视化监控
 
 基于javascript的微服务网关，任务调度管理中心
-
 
 #### 可以参考的资料
 + daemon和gateway可以参考[bcoin](https://github.com/bcoin-org/bcoin/tree/master/lib/workers)吗？
@@ -18,5 +40,5 @@
 + 参考[子昱](), [自强](https://github.com/lanlyhs/sync-block/blob/master/doc/todo.md)
 + 一些零散文章： [浏览器任务调度分析](https://juejin.im/post/6844904040841609223)，
 [浅析 Node 进程与线程](https://juejin.im/post/6844904033640169486), [JS实现 使用动态优先权的进程调度算法模拟](https://blog.csdn.net/qq_37288477/article/details/84844900), [高优先权优先调度算法JS实现](https://www.pianshen.com/article/1132349153/)
-+ [轻量级 JS 任务调度工具 bobolink](https://my.oschina.net/u/2391658/blog/1865944)
-+ [promise-pool](https://github.com/stevekeol/promise-pool)
+
+---

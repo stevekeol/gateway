@@ -1,0 +1,5 @@
+.idea
+launch.json
+coverage/
+.travis.yml
+.nyc_output/
